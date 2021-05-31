@@ -99,8 +99,6 @@ const repoCount = document.getElementById("repo-number-badge");
 const savedUserData = localStorage.getItem("userData");
 const parsedUserData = JSON.parse(savedUserData);
 
-console.log(parsedUserData);
-
 const displayStickyProfileCallback = (entries) => {
   entries.forEach((entry) => {
     const elementToToggle = document.getElementById("sticky-image");
