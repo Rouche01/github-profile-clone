@@ -4,7 +4,7 @@ const fetchUserProfile = async (username) => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${env.api_key}`,
+        Authorization: `Bearer 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`,
       },
       body: JSON.stringify({
         query: `
