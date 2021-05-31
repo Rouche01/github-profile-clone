@@ -62,5 +62,3 @@ const fetchUserProfile = async (username) => {
     console.log(err);
   }
 };
-
-export { fetchUserProfile };
